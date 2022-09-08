@@ -8,5 +8,5 @@ sed 's/[:]/,/g' | \
 sed 's/[,]/:/' | \
 sed 's/[,]/:/' | \
 sed 's/[%()/]//g' | \
-sed 's/[a-zA-Z]//g' >> top_monitoring6.csv
-echo '' >> top_monitoring6.csv
+sed 's/[a-zA-Z]//g' >> top_monitoring.csv
+echo '' >> top_monitoring.csv
